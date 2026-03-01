@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/engine/src/**",
+                "C:\\VulkanSDK\\1.3.216.0\\Include"
+            ],
+            "defines":[
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "KEXPORT"
+            ],
+            "windowsSdkVersion": "10.0.26100.0",
+            "compilerPath": "C:\\Program Files\\LLVM\\bin\\clang.exe",
+            "cppStandard": "c++20",
+            "cStandard": "c17",
+            "intellisenseMode": "clang-x64"
+        }
+    ],
+    "version": 4,
+    "env": {}
+}

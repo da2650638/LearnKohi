@@ -1,0 +1,174 @@
+{
+    // =========================
+    // VSCode 主题 & 界面设置
+    // =========================
+
+    "workbench.colorTheme": "Gruvbox Dark (Hard)", 
+    // 编辑器主题
+
+    "editor.minimap.enabled": false, 
+    // 关闭右侧代码缩略图
+
+    "workbench.editor.showTabs": true, 
+    // 不显示文件标签页（只显示当前文件）
+
+    "workbench.activityBar.visible": true, 
+    // 显示左侧活动栏（资源管理器、搜索等）
+
+    "workbench.statusBar.visible": true, 
+    // 显示底部状态栏
+
+    "window.zoomLevel": 0,
+    // 整体 UI 缩放级别
+
+
+    // =========================
+    // 字体 & 光标
+    // =========================
+
+    "editor.fontFamily": "Liberation Mono",
+    // 编辑器代码字体
+
+    "editor.fontSize": 16,
+    // 编辑器字体大小
+
+    "editor.fontWeight": "1",
+    // 字体粗细
+
+    "editor.cursorStyle": "block",
+    // 光标样式（block = 块状光标）
+
+    "editor.lineNumbers": "on",
+    // 显示行号
+
+
+    // =========================
+    // 终端设置
+    // =========================
+
+    "terminal.integrated.shell.windows": "c:/Program Files/PowerShell/7/pwsh.exe",
+    // Windows 下默认终端使用 PowerShell 7
+
+    "terminal.integrated.fontFamily": "Cascadia Mono PL",
+    // 终端字体
+
+    "terminal.integrated.fontWeight": "1",
+    // 终端字体粗细
+
+
+    // =========================
+    // 颜色自定义
+    // =========================
+
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#00ff33",
+        // 光标颜色
+
+        "editor.lineHighlightBackground": "#111144"
+        // 当前行高亮背景色
+    },
+
+
+    // =========================
+    // 编辑行为
+    // =========================
+
+    "editor.tabCompletion": "on",
+    // 开启 Tab 自动补全
+
+
+    // =========================
+    // XML 插件设置
+    // =========================
+
+    "xmlTools.enforcePrettySelfClosingTagOnFormat": true,
+    // 格式化 XML 时强制自闭合标签规范
+
+
+    // =========================
+    // C/C++ 格式化（Microsoft C/C++ 插件）
+    // =========================
+
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0, NamespaceIndentation: All}",
+    // 使用 clang-format 风格：
+    // 基于 Google 风格
+    // 缩进 4 空格
+    // 不限制列宽
+    // 命名空间内容缩进
+
+    "C_Cpp.clang_format_sortIncludes": false,
+    // 不自动排序 include
+
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+    // 大括号是否另起一行（sameLine = 与声明同行）
+
+    "C_Cpp.vcFormat.space.pointerReferenceAlignment": "left",
+    // 指针星号靠左：int* p;
+
+    "C_Cpp.vcFormat.indent.namespaceContents": true,
+    // 命名空间内部缩进
+
+
+    // =========================
+    // TODO 高亮插件
+    // =========================
+
+    "todohighlight.isEnable": true,
+    // 开启 TODO 高亮
+
+    "todohighlight.keywords": [
+        {
+            "text": "TODO:",
+            "color": "red",
+            "backgroundColor": "rgba(0,0,0,0)"
+        },
+        {
+            "text": "HACK:",
+            "color": "#ff6600",
+            "backgroundColor": "rgba(0,0,0,0)"
+        },
+        {
+            "text": "NOTE:",
+            "color": "green",
+            "backgroundColor": "rgba(0,0,0,0)"
+        },
+        {
+            "text": "QUESTION:",
+            "color": "cyan",
+            "backgroundColor": "rgba(0,0,0,0)"
+        }
+    ],
+    // 指定关键字颜色
+
+    "todohighlight.defaultStyle": {
+        "color": "red",
+        "backgroundColor": "#ffab00",
+        "overviewRulerColor": "rgba(0,0,0,0)",
+        "isWholeLine": false
+    },
+    // 默认高亮样式
+
+
+    // =========================
+    // 文件类型强制关联
+    // =========================
+
+    "files.associations": {
+        // "test.h": "c",
+        // "vulkan.h": "c",
+        // "vulkan_core.h": "c",
+        // "vk_platform.h": "c",
+        // "windowsx.h": "c",
+        // "vulkan_platform.h": "c",
+        // "renderer_frontend.h": "c",
+
+        // "type_traits": "c",
+        // "typeinfo": "c"
+        "defines.h": "c"
+    }
+    // 强制这些文件按 C 语言解析
+    // 只影响语法高亮和 IntelliSense
+    // 不影响真实编译
+}
