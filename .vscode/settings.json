@@ -3,16 +3,14 @@
     // VSCode 主题 & 界面设置
     // =========================
 
-    "workbench.colorTheme": "Gruvbox Dark (Hard)", 
+    "workbench.colorTheme": "Gruvbox Dark (Medium)", 
     // 编辑器主题
 
     "editor.minimap.enabled": false, 
     // 关闭右侧代码缩略图
 
-    "workbench.editor.showTabs": true, 
-    // 不显示文件标签页（只显示当前文件）
-
-    "workbench.activityBar.visible": true, 
+    "workbench.editor.showTabs": "multiple",
+    
     // 显示左侧活动栏（资源管理器、搜索等）
 
     "workbench.statusBar.visible": true, 
