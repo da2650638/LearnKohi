@@ -16,6 +16,7 @@ SET defines=-D_DEBUG -DKIMPORT
 
 ECHO "Building %assembly%%..."
 
+ECHO "clang %cFilenames% %compilerFlags% -o ../bin/%assembly%.exe %defines% %includeFlags% %linkerFlags%"
 clang %cFilenames% %compilerFlags% -o ../bin/%assembly%.exe %defines% %includeFlags% %linkerFlags%
 
 ECHO "Build complete."

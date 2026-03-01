@@ -12,6 +12,7 @@ SET defines=-DKEXPORT -D_DEBUG -D_CRT_SECURE_NO_WARNINGS
 
 ECHO "Building %assembly%.dll..."
 
+ECHO "clang %cFilenames% %compilerFlags% -o ..\\bin\\%assembly%.dll %defines% %includeFlags% %linkerFlags%"
 clang %cFilenames% %compilerFlags% -o ..\\bin\\%assembly%.dll %defines% %includeFlags% %linkerFlags%
 
 ECHO "Build complete."
