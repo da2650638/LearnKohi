@@ -11,6 +11,17 @@
             "stopAtEntry": false,
             "environment": [],
             "console": "newExternalWindow"
+        },
+        {
+            "name": "(Linux) launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/testbed",
+            "cwd": "${workspaceFolder}/bin/",
+            "args": [],
+            "stopAtEntry": false,
+            "environment": [],
+            "console": "newExternalWindow"
         }
     ]   
 }

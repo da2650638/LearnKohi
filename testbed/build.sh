@@ -11,6 +11,7 @@ pushd ../
 ORIGIN=$(pwd)/bin
 popd
 echo "rpath:$ORIGIN"
+
 assembly="testbed"
 compilerFlags="-g -fdeclspec -fPIC"
 # -fms-extensions 
